@@ -1,0 +1,31 @@
+cat <<EOF > .gitignore
+# Java & Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+/log/
+*.class
+*.jar
+*.war
+*.ear
+*.tar.gz
+
+# IDE - IntelliJ
+.idea/
+*.iml
+*.iws
+out/
+
+# IDE - VSCode
+.vscode/
+.history/
+*.code-workspace
+
+# OS & Logs
+.DS_Store
+*.log
+.factorypath
+
+# Environment
+.env
+.env.local
+EOF
