@@ -2,6 +2,7 @@ package cl.allan.signal;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.scheduling.annotation.EnableScheduling;
 
 /**
  * Main entry point for the Signal application.
@@ -9,6 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * across the system architecture.
  */
 @SpringBootApplication
+@EnableScheduling
 public class SignalApplication {
 
 	public static void main(String[] args) {
